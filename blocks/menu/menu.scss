@@ -1,0 +1,11 @@
+@import "../../variables/_mixins";
+
+.menu {
+  height: 74px;
+  @include flex(flex-end);
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+}

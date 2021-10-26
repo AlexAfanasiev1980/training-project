@@ -1,0 +1,13 @@
+@import "../../../variables/_theme";
+
+.button__background {
+  position: absolute;
+  background: linear-gradient(90deg, #319E75 50%, $green 50%);
+  z-index: 1;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  left: -180px;
+  transition: 1s;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.menu__links {
+  list-style-type: none;
+  width: 399px;
+  padding: 0;
+  margin: 0 120px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=menu__links.css.map */

@@ -1,0 +1,13 @@
+.header__sticky {
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 401px;
+}/*# sourceMappingURL=header__sticky.css.map */

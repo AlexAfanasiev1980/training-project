@@ -1,0 +1,13 @@
+.menu {
+  height: 74px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+}/*# sourceMappingURL=menu.css.map */

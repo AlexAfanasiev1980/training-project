@@ -1,0 +1,14 @@
+@import "../../../variables/_list-style";
+@import "../../../variables/_fonts";
+
+.menu__link {
+  text-decoration: $link-style-none;
+  color: $black-ligth;
+  font-family: $inter;
+  font-size: $font-size-small;
+  line-height: 1.29;
+}
+
+.menu__link:hover {
+  opacity: 0.75;
+}

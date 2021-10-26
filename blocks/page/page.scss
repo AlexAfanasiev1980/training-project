@@ -1,0 +1,9 @@
+@import "../../variables/_screens";
+@import "../../variables/_theme";
+@import "../../variables/_align";
+
+.page {
+  max-width: $desktop;
+  background-color: $ligth;
+  margin: $align-center;
+}

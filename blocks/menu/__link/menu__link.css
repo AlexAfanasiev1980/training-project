@@ -1,0 +1,11 @@
+.menu__link {
+  text-decoration: none;
+  color: #151515;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.menu__link:hover {
+  opacity: 0.75;
+}/*# sourceMappingURL=menu__link.css.map */

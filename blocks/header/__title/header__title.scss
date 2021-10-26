@@ -1,0 +1,10 @@
+@import "../../../variables/_fonts";
+
+.header__title {
+  font-family: $inter;
+  font-size: 55px;
+  font-weight: 700;
+  width: 300px;
+  margin: 80px 0 0 120px;
+  color: $black-ligth;
+}
