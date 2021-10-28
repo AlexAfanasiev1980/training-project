@@ -1,0 +1,12 @@
+@import "../../../variables/_list-style";
+
+.slider-road__image-container {
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  max-width: 1760px;
+  list-style-type: $list-style-none;
+  transition: 1s;
+}

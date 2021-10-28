@@ -1,0 +1,9 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_fonts";
+
+.slider-road__title {
+  @include font(55px, 700, Inter, 1.09);
+  margin: 0 0 50px 0;
+  letter-spacing: -0.5px;
+  color: $black-ligth;
+}
