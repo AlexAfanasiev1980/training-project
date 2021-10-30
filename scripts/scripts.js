@@ -6,6 +6,8 @@ const buttonRight = document.querySelector(".slider-road__button_direction_right
 const buttonLeft = document.querySelector(".slider-road__button_direction_left");
 const slidesImage = document.querySelectorAll(".slider-road__image-item");
 const slidesContainer = document.querySelector(".slider-road__image-container");
+const buttonBicycles = document.querySelectorAll(".bicycles__list-item");
+const slidesBicycles = document.querySelectorAll(".bicycles__slides")
 let slideIndex = 1;
 
 headerLink.addEventListener('mouseenter', function () {
@@ -134,6 +136,7 @@ buttonLeft.addEventListener('click', left);
 
 //конец функции движения слайда влево
 
+
 function showSlideList(pos) {
   for (i = 0; i < slidesTitle.length; i++) {
     slidesTitle[i].style.display = "none";
@@ -142,8 +145,6 @@ function showSlideList(pos) {
     slidesTitle[pos-1].style.display = "block";
     slidesIcon[pos-1].style.display = "block";
 }
-
-
 
 function showSlides(n) {
   for (i = 0; i < slidesTitle.length; i++) {
@@ -155,3 +156,40 @@ function showSlides(n) {
 }
 
 showSlides(slideIndex);
+
+//функция слайдера велосипедов
+
+function bicyclesChoice(e) {
+  for (i = 0; i < buttonBicycles.length; i++) {
+    slidesBicycles[i].style.display = "none";
+}
+  for (i = 0; i < buttonBicycles.length; i++) {
+  buttonBicycles[i].classList.remove("bicycles__list-item_active");
+}
+slidesBicycles[e.target.id-1].style.display = "flex";
+buttonBicycles[e.target.id-1].classList.add("bicycles__list-item_active");
+  console.log(e.target.id);
+
+}
+
+for (i = 0; i < buttonBicycles.length; i++) {
+  buttonBicycles[i].addEventListener('click', bicyclesChoice);
+}
+
+//функция установки слайдера велосипеда по умолчанию
+function showBicycles(n) {
+  for (i = 0; i < buttonBicycles.length; i++) {
+    slidesBicycles[i].style.display = "none";
+}
+    slidesBicycles[n-1].style.display = "flex";
+    buttonBicycles[n-1].classList.add("bicycles__list-item_active");
+}
+
+showBicycles(slideIndex);
+//конец функции слайдера велосипедов
+
+
+
+
+
+
