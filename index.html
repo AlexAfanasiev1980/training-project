@@ -13,7 +13,7 @@
       <ul class="menu__links">
         <li><a href="#road-item" class="menu__link">Покрытия и градиенты</a></li>
         <li><a href="#bicycles" class="menu__link">Велосипеды</a></li>
-        <li><a href="#" class="menu__link">Тренировки</a></li>
+        <li><a href="#workout" class="menu__link">Тренировки</a></li>
       </ul>
     </nav>
     <div class="header__content">
@@ -93,12 +93,12 @@
        <button type="button" class="button slider-road__button slider-road__button_direction_left">
          <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_left" alt="">
        </button>
-       <button type="button" class="button slider-road__button slider-road__button_direction_right">
+       <button type="button" class="button slider-road__button slider-road__button_direction_right" id="bicycles">
         <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_right" alt="">
        </button>
      </div>
    </section>
-   <section class="bicycles" id="bicycles">
+   <section class="bicycles">
      <div class="bicycles__header">
        <h2 class=" title bicycles__title">Велосипеды</h2>
        <ul class="bicycles__list">
@@ -189,7 +189,7 @@
         </li>
       </ul>
      </div>
-     <div class="slider-bic">
+     <div class="slider-bic" id="workout">
 
      </div>
    </section>
@@ -209,7 +209,21 @@
    </section>
   </main>
   <footer class="footer">
-
+    <form name="email" class="footer__form">
+      <h3 class="footer__form-title">Подпишитесь на рассылку -</h3>
+      <div class="footer__item">
+        <input type="email" class="footer__email" placeholder="Ваш e-mail">
+        <input type="button" value="oк" class="footer__submit">
+      </div>
+      <p class="footer__text">© Road Club 2021</p>
+    </form>
+    <div class="footer__theme-container">
+      <img src="./images/sun.svg" alt="иконка солнце" class="footer__sun">
+      <div class="footer__switch-container">
+        <div class="footer__switch"></div>
+      </div>
+      <img src="./images/moon.svg" alt="иконка луна" class="footer__moon">
+    </div>
   </footer>
   <script src="./scripts/scripts.js"></script>
 </body>

@@ -8,6 +8,10 @@ const slidesImage = document.querySelectorAll(".slider-road__image-item");
 const slidesContainer = document.querySelector(".slider-road__image-container");
 const buttonBicycles = document.querySelectorAll(".bicycles__list-item");
 const slidesBicycles = document.querySelectorAll(".bicycles__slides")
+const inputEmail = document.querySelector(".footer__email");
+const inputSubmit = document.querySelector(".footer__submit");
+const buttonSwitch = document.querySelector(".footer__switch-container");
+const switchTheme = document.querySelector(".footer__switch");
 let slideIndex = 1;
 
 headerLink.addEventListener('mouseenter', function () {
@@ -188,8 +192,26 @@ function showBicycles(n) {
 showBicycles(slideIndex);
 //конец функции слайдера велосипедов
 
+//обработка события клика на input email
+function visibilityButton() {
+  inputSubmit.classList.add("footer__submit_active");
+}
 
+inputEmail.addEventListener('click', visibilityButton);
 
+//обработа события клика на input submit
+function visibilityButtonNone() {
+  inputSubmit.classList.remove("footer__submit_active");
+  inputEmail.value = "Круто!";
+  inputEmail.style.color = "#151515";
+}
 
+inputSubmit.addEventListener('click', visibilityButtonNone);
 
+//переключение темы
 
+function switchThemeDark() {
+  switchTheme.classList.toggle("footer__switch_theme_dark");
+}
+
+buttonSwitch.addEventListener('click', switchThemeDark);

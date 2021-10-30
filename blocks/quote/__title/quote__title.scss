@@ -4,7 +4,7 @@
 .quote__title {
   @include font (34px, 600, $line-height: 1.29);
   display: block;
-  width: 470px;
+  max-width: 470px;
   margin: 0 0 0 120px;
   color: $black-ligth;
 }

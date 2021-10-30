@@ -1,0 +1,11 @@
+.footer__submit {
+  width: 20px;
+  padding: 0;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Inter;
+  line-height: 2.15;
+  cursor: pointer;
+  display: none;
+}/*# sourceMappingURL=footer__submit.css.map */

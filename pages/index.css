@@ -56,3 +56,15 @@
 @import url(../blocks/workout/__list/workout__list.css);
 @import url(../blocks/workout/__list-item/workout__list-item.css);
 @import url(../blocks/workout/__link/workout__link.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__submit/footer__submit.css);
+@import url(../blocks/footer/__submit/_active/footer__submit_active.css);
+@import url(../blocks/footer/__form-title/footer__form-title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__theme-container/footer__theme-container.css);
+@import url(../blocks/footer/__switch-container/footer__switch-container.css);
+@import url(../blocks/footer/__moon/footer__moon.css);
+@import url(../blocks/footer/__switch/footer__switch.css);
+@import url(../blocks/footer/__switch/_theme/footer__switch_theme_dark.css);
