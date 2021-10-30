@@ -1,1 +1,1 @@
-{"version":3,"sources":["slider-road__title.scss","../../../variables/_mixins.scss","../../../variables/_fonts.scss"],"names":[],"mappings":"AAGA;ECME,eDLc;ECMd,gBDNoB;ECOpB,kBDPyB;ECQzB,iBDRgC;EAChC,kBAAA;EACA,sBAAA;EACA,cEPY;AFQd","file":"slider-road__title.css"}
+{"version":3,"sources":["slider-road__title.scss"],"names":[],"mappings":"AAAA;EACE,kBAAA;AACF","file":"slider-road__title.css"}

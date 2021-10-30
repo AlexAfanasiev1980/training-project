@@ -1,0 +1,8 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_fonts";
+
+.bicycles__text {
+  @include font(18px, 600, Inter, 1.22);
+  color: $black-ligth;
+  margin: 22px 0 0 0;
+}

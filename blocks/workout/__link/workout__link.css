@@ -1,0 +1,9 @@
+.workout__link {
+  text-decoration: none;
+  color: #151515;
+}
+
+.workout__link:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}/*# sourceMappingURL=workout__link.css.map */

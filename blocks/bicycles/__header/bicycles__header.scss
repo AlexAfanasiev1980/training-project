@@ -1,0 +1,6 @@
+@import "../../../variables/_mixins";
+
+.bicycles__header {
+  @include flex(space-between);
+  margin: 0 0 0 120px;
+}

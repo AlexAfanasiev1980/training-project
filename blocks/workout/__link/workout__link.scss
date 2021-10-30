@@ -1,0 +1,11 @@
+@import "../../../variables/_fonts";
+
+.workout__link {
+  text-decoration: none;
+  color: $black-ligth;
+}
+
+.workout__link:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}

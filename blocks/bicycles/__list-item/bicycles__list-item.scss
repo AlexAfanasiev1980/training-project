@@ -1,0 +1,13 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_fonts";
+
+.bicycles__list-item {
+  @include font(18px, normal, Inter, 1.56);
+  color: $color-text;
+  opacity: 0.7;
+  margin: 0 40px 0 0;
+}
+
+.bicycles__list-item:last-child {
+  margin: 0;
+}
