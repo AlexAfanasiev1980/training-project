@@ -1,0 +1,19 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_list-style";
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+
+.bicycles__slides {
+  @include flex();
+  list-style-type: $list-style-none;
+  margin: 0 0 0 120px;
+  padding: 0;
+  animation: fade 1.5s;
+}

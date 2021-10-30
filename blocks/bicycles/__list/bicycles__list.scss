@@ -1,0 +1,10 @@
+@import "../../../variables/_list-style";
+@import "../../../variables/_mixins";
+
+.bicycles__list {
+  list-style-type: $list-style-none;
+  @include flex();
+  margin: 0 120px 0 0;
+  align-self: flex-end;
+  cursor: pointer;
+}

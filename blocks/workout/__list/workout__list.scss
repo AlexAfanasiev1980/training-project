@@ -1,0 +1,9 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_list-style";
+
+.workout__list {
+  @include flex();
+  list-style-type: $list-style-none;
+  padding: 0;
+  margin: 182px 0 0 0;
+}

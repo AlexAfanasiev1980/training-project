@@ -1,0 +1,9 @@
+@import "../../../variables/_mixins";
+
+.workout__list-item {
+  @include font(18px, 600, Inter, 1.56);
+}
+
+.workout__list-item:last-child {
+  margin: 0 0 0 30px;
+}

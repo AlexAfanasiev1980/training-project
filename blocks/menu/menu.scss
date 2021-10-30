@@ -1,11 +1,13 @@
 @import "../../variables/_mixins";
+@import "../../variables/_theme";
 
 .menu {
   height: 74px;
   @include flex(flex-end);
   position: fixed;
   top: 0;
-  background-color: #fff;
+  background-color: $page;
   width: 100%;
   max-width: 1440px;
+  z-index: 999;
 }

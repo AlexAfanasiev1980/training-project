@@ -1,0 +1,10 @@
+.workout__list-item {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 1.56;
+}
+
+.workout__list-item:last-child {
+  margin: 0 0 0 30px;
+}/*# sourceMappingURL=workout__list-item.css.map */

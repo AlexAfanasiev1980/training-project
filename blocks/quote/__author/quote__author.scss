@@ -1,0 +1,8 @@
+@import "../../../variables/_mixins";
+@import "../../../variables/_fonts";
+
+.quote__author {
+  @include font (20px, 500, $line-height: 1.6);
+  margin: 262px 0 0 120px;
+  color: $black-ligth;
+}

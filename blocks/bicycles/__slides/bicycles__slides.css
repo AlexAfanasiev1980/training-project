@@ -1,0 +1,28 @@
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bicycles__slides {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 0 0 0 120px;
+  padding: 0;
+  -webkit-animation: fade 1.5s;
+          animation: fade 1.5s;
+}/*# sourceMappingURL=bicycles__slides.css.map */
