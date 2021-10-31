@@ -8,3 +8,11 @@
   margin: 0 0 0 120px;
   color: $black-ligth;
 }
+
+@media screen and (max-width: 1350px) {
+  .quote__title {
+    @include font (23px, 600, $line-height: 1.26);
+    max-width: 284px;
+    margin: 0;
+  }
+}

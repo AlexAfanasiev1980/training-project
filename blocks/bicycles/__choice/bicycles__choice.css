@@ -1,0 +1,27 @@
+.bicycles__choice {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 1.27;
+  width: 114px;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 0 12px 0 12px;
+  margin: 0 0 0 18px;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../../../images/Vector_select.svg");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  outline: none;
+  background-color: transparent;
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__choice {
+    display: block;
+  }
+}/*# sourceMappingURL=bicycles__choice.css.map */

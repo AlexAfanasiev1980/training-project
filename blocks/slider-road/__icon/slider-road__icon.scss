@@ -3,3 +3,11 @@
   left: 16px;
   bottom: 12px;
 }
+
+@media screen and (max-width: 1350px) {
+  .slider-road__icon {
+    width: 35px;
+    left: 11px;
+    bottom: 8px;
+  }
+}

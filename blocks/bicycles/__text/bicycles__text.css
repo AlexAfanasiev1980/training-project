@@ -5,4 +5,16 @@
   line-height: 1.22;
   color: #151515;
   margin: 22px 0 0 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__text {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 1.29;
+  }
 }/*# sourceMappingURL=bicycles__text.css.map */

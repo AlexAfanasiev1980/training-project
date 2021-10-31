@@ -10,4 +10,12 @@
   position: -webkit-sticky;
   position: sticky;
   top: 401px;
+}
+
+@media screen and (max-width: 1350px) {
+  .header__sticky {
+    width: 234px;
+    height: 160px;
+    top: 225px;
+  }
 }/*# sourceMappingURL=header__sticky.css.map */

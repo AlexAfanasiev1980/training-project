@@ -1,4 +1,10 @@
 .bicycles__slide {
   background-color: #f4f4f4;
   margin: 0 30px 0 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__slide {
+    margin: 0 18px 0 0;
+  }
 }/*# sourceMappingURL=bicycles__slide.css.map */

@@ -11,4 +11,10 @@
   width: 100%;
   max-width: 1440px;
   z-index: 999;
+}
+
+@media screen and (max-width: 1350px) {
+  .menu {
+    max-width: 320px;
+  }
 }/*# sourceMappingURL=menu.css.map */

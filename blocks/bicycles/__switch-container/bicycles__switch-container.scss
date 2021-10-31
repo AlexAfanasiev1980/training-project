@@ -1,0 +1,12 @@
+.bicycles__switch-container {
+  width: 30px;
+  margin: 0 auto 40px auto;
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__switch-container {
+    display: block;
+  }
+}
+

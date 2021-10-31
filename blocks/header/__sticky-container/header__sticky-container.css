@@ -3,4 +3,12 @@
   position: absolute;
   top: 327px;
   left: -200px;
+}
+
+@media screen and (max-width: 1350px) {
+  .header__sticky-container {
+    top: 151px;
+    left: -30px;
+    height: 185px;
+  }
 }/*# sourceMappingURL=header__sticky-container.css.map */

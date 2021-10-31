@@ -2,4 +2,12 @@
   overflow: hidden;
   position: relative;
   margin: 0 0 0 120px;
+}
+
+@media screen and (max-width: 1350px) {
+  .slider-road__list {
+    margin: 0;
+    height: 175px;
+    grid-area: image;
+  }
 }/*# sourceMappingURL=slider-road__list.css.map */

@@ -13,4 +13,13 @@
   position: relative;
   padding: 0;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1350px) {
+  .header__button {
+    grid-area: button;
+    margin: 0 0 40px 18px;
+    width: 284px;
+    height: 46px;
+  }
 }/*# sourceMappingURL=header__button.css.map */

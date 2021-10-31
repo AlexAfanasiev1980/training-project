@@ -8,4 +8,10 @@
   margin: 0 120px 0 0;
   align-self: flex-end;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__list {
+    display: none;
+  }
 }/*# sourceMappingURL=bicycles__list.css.map */

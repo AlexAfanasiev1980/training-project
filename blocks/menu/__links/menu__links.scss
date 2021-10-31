@@ -8,3 +8,9 @@
   margin: 0 120px 0 0;
   @include flex(space-between);
 }
+
+@media screen and (max-width: 1350px) {
+  .menu__links {
+  display: none;
+  }
+}

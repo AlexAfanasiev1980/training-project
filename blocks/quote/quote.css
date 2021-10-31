@@ -1,4 +1,11 @@
 .quote {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1350px) {
+  .quote {
+    grid-template-columns: 1fr;
+    grid-template-areas: "image" "text";
+  }
 }/*# sourceMappingURL=quote.css.map */

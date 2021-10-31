@@ -1,3 +1,10 @@
 .main__workout {
   margin: 150px 120px 120px 120px;
+}
+
+@media screen and (max-width: 1350px) {
+  .main__workout {
+    margin: 0 18px 0 18px;
+    padding-top: 40px;
+  }
 }/*# sourceMappingURL=main__workout.css.map */

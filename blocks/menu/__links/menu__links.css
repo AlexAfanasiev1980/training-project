@@ -8,4 +8,10 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1350px) {
+  .menu__links {
+    display: none;
+  }
 }/*# sourceMappingURL=menu__links.css.map */

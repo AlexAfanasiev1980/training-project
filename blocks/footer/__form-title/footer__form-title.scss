@@ -5,3 +5,9 @@
   width: 229px;
   margin: 0 0 50px 0;
 }
+
+@media screen and (max-width: 1350px) {
+  .footer__form-title {
+    margin: 0 0 40px 0;
+  }
+}

@@ -7,4 +7,15 @@
   max-width: 470px;
   margin: 0 0 0 120px;
   color: #151515;
+}
+
+@media screen and (max-width: 1350px) {
+  .quote__title {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 1.26;
+    max-width: 284px;
+    margin: 0;
+  }
 }/*# sourceMappingURL=quote__title.css.map */

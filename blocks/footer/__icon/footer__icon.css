@@ -1,0 +1,13 @@
+.footer__icon {
+  grid-area: icon;
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__icon {
+    display: block;
+    justify-self: end;
+    align-self: flex-end;
+    margin: 0 16px -5px 0;
+  }
+}/*# sourceMappingURL=footer__icon.css.map */

@@ -6,3 +6,9 @@
   color: $color-text;
   opacity: 0.7;
 }
+
+@media screen and (max-width: 1350px) {
+  .text {
+    @include font(12px, 400, Inter, 1.5)
+  }
+}

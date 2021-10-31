@@ -7,4 +7,11 @@
   margin: 0 123px 0 0;
   justify-content: center;
   align-items: center;
+  grid-area: icon;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__theme-container {
+    display: none;
+  }
 }/*# sourceMappingURL=footer__theme-container.css.map */

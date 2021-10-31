@@ -1,0 +1,11 @@
+@import "../../variables/_theme";
+
+.menu-popup {
+  width: 320px;
+  height: 566px;
+  position: fixed;
+  top: 74px;
+  z-index: 555;
+  background-color: $page;
+  display: none;
+}

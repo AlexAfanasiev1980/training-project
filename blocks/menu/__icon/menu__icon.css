@@ -1,0 +1,12 @@
+.menu__icon {
+  margin: 28px 18px 0 0;
+  align-self: flex-start;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .menu__icon {
+    display: block;
+  }
+}/*# sourceMappingURL=menu__icon.css.map */

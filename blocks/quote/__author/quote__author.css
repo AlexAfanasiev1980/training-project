@@ -5,4 +5,14 @@
   line-height: 1.6;
   margin: 262px 0 0 120px;
   color: #151515;
+}
+
+@media screen and (max-width: 1350px) {
+  .quote__author {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+    line-height: 1.57;
+    margin: 40px 0 0 0;
+  }
 }/*# sourceMappingURL=quote__author.css.map */

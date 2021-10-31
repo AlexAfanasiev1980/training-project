@@ -28,4 +28,10 @@
 .footer__email:hover::-webkit-input-placeholder, .footer__email:focus::-webkit-input-placeholder {
   color: #151515;
   opacity: 1;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__email {
+    width: 245px;
+  }
 }/*# sourceMappingURL=footer__email.css.map */

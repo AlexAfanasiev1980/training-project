@@ -6,3 +6,12 @@
   position: absolute;
   bottom: 16px;
 }
+
+@media screen and (max-width: 1350px) {
+  .slider-road__icons {
+    height: 28px;
+    width: 70px;
+    background-size: cover;
+    bottom: 14px;
+  }
+}
