@@ -1,4 +1,12 @@
 .header__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "title image" "text image" "bic image";
+}
+
+@media screen and (max-width: 1350px) {
+  .header__content {
+    grid-template-columns: 320px;
+    grid-template-areas: "title" "image" "text" "button";
+  }
 }/*# sourceMappingURL=header__content.css.map */

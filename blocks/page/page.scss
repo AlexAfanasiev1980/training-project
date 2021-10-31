@@ -7,3 +7,9 @@
   background-color: $page;
   margin: $align-center;
 }
+
+@media screen and (max-width: 1350px) {
+  .page {
+    max-width: $mobile;
+  }
+}

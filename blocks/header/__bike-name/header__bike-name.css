@@ -3,4 +3,11 @@
   opacity: 1;
   line-height: 1;
   margin: 167px 0 0 120px;
+  grid-area: bic;
+}
+
+@media screen and (max-width: 1350px) {
+  .header__bike-name {
+    display: none;
+  }
 }/*# sourceMappingURL=header__bike-name.css.map */

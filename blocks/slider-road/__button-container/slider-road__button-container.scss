@@ -3,3 +3,11 @@
   flex-wrap: nowrap;
   margin: 50px 0 60px 120px;
 }
+
+@media screen and (max-width: 1350px) {
+  .slider-road__button-container {
+    grid-area: button;
+    margin: 50px 0 60px 0;
+    justify-self: flex-end;
+  }
+}

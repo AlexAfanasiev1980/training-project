@@ -1,3 +1,9 @@
 .main__quote {
   margin: 120px 0 60px 120px;
+}
+
+@media screen and (max-width: 1350px) {
+  .main__quote {
+    margin: 40px 0 40px 18px;
+  }
 }/*# sourceMappingURL=main__quote.css.map */

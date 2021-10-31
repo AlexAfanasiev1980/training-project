@@ -1,3 +1,10 @@
 .slider-road__image {
   margin: 0 40px 0 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .slider-road__image {
+    width: 284px;
+    margin: 0 18px 0 0;
+  }
 }/*# sourceMappingURL=slider-road__image.css.map */

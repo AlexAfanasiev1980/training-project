@@ -5,4 +5,13 @@
   line-height: 1.09;
   color: #151515;
   letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1350px) {
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Inter;
+    line-height: 1.25;
+  }
 }/*# sourceMappingURL=title.css.map */

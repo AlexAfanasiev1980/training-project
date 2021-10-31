@@ -1,0 +1,14 @@
+@media screen and (max-width: 1350px) {
+  .slider-road {
+    display: grid;
+    // width: 284px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "title button"
+    "image image"
+    "text text";
+    margin: 80px 18px 0 18px;
+    border-top: 1px solid #E3E3E3;
+    box-sizing: border-box;
+  }
+}

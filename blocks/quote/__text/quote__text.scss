@@ -7,3 +7,10 @@
   opacity: 0.7;
   margin: 6px 0 0 120px;
 }
+
+@media screen and (max-width: 1350px) {
+  .quote__text {
+    @include font (10px, 500, $line-height: 1.6);
+    margin: 4px 0 0 0;
+  }
+}

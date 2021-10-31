@@ -17,3 +17,10 @@
 .slider-road__button:active {
   background-color: rgba(235, 235, 235, 0.6);
 }
+
+@media screen and (max-width: 1350px) {
+  .slider-road__button {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -6,3 +6,12 @@
   color: $black-ligth;
   margin: 22px 0 0 0;
 }
+
+@media screen and (max-width: 1350px) {
+  .bicycles__text {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3px;
+    @include font(14px, 600, Inter, 1.29);
+  }
+}

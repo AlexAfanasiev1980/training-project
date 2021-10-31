@@ -10,3 +10,9 @@
   list-style-type: $list-style-none;
   transition: 1s;
 }
+
+@media screen and (max-width: 1350px) {
+  .slider-road__image-container {
+    max-width: 1510px;
+  }
+}

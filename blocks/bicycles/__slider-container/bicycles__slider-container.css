@@ -1,3 +1,10 @@
 .bicycles__slider-container {
   margin: 120px 0 60px 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__slider-container {
+    margin: 20px 0 36px 0;
+    overflow-x: hidden;
+  }
 }/*# sourceMappingURL=bicycles__slider-container.css.map */

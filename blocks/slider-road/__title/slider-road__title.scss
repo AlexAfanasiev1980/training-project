@@ -1,3 +1,25 @@
 .slider-road__title {
-  margin: 0 0 50px 0;
+  margin: 0 0 50px 120px;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 1350px) {
+  .slider-road__title {
+    margin: 0 0 40px 0;
+    padding-top: 40px;
+    grid-area: title;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .2
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.slider-road__title {
+  animation: fade 1.5s;
 }

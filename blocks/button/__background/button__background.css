@@ -8,4 +8,11 @@
   left: -180px;
   transition: 1s;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1350px) {
+  .button__background {
+    width: 568px;
+    left: -284px;
+  }
 }/*# sourceMappingURL=button__background.css.map */

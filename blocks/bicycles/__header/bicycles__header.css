@@ -5,4 +5,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0 0 0 120px;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__header {
+    margin: 40px 18px 40px 18px;
+    padding-top: 40px;
+    border-top: 1px solid #E3E3E3;
+  }
 }/*# sourceMappingURL=bicycles__header.css.map */

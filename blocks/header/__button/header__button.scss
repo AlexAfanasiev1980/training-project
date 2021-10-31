@@ -15,6 +15,11 @@
   overflow: hidden;
 }
 
-.header__button:hover {
-  
+@media screen and (max-width: 1350px) {
+  .header__button {
+    grid-area: button;
+    margin: 0 0 40px 18px;
+    width: 284px;
+    height: 46px;
+  }
 }

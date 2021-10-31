@@ -6,3 +6,9 @@
   color: $black-ligth;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 1350px) {
+  .title {
+    @include font(32px, 700, Inter, 1.25);
+  }
+}

@@ -15,19 +15,48 @@
         <li><a href="#bicycles" class="menu__link">Велосипеды</a></li>
         <li><a href="#workout" class="menu__link">Тренировки</a></li>
       </ul>
+      <div class="menu__icon">
+        <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="1.5" x2="22" y2="1.5" stroke="#151515" stroke-width="3"/>
+          <line y1="9.5" x2="22" y2="9.5" stroke="#151515" stroke-width="3"/>
+          <line y1="17.5" x2="22" y2="17.5" stroke="#151515" stroke-width="3"/>
+        </svg>
+      </div>
+      <div class="menu__close-icon">
+        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="1.22179" y1="1.72205" x2="16.7781" y2="17.2784" stroke="#151515" stroke-width="3"/>
+          <line x1="1.22205" y1="17.2782" x2="16.7784" y2="1.72186" stroke="#151515" stroke-width="3"/>
+        </svg>
+      </div>
     </nav>
+    <div class="menu-popup">
+      <nav class="menu-popup__container">
+        <ul class="menu-popup__links">
+          <li class="menu-popup__list-item"><a href="#road-item" class="menu-popup__link menu__link">Покрытия и градиенты</a></li>
+          <li class="menu-popup__list-item"><a href="#bicycles" class="menu-popup__link menu__link">Велосипеды</a></li>
+          <li class="menu-popup__list-item"><a href="#workout" class="menu-popup__link menu__link">Тренировки</a></li>
+        </ul>
+      </nav>
+      <div class="menu-popup__theme-container footer__theme-container">
+        <img src="./images/sun.svg" alt="иконка солнце" class="footer__sun">
+        <div class="footer__switch-container">
+          <div class="footer__switch"></div>
+        </div>
+        <img src="./images/moon.svg" alt="иконка луна" class="footer__moon">
+      </div>
+    </div>
     <div class="header__content">
-      <div>
        <h1 class="title header__title">Шоссе, ТТ и Грэвел</h1>
-       <p class="text header__text">Триатлонные старты, горные серпантины или
+       <div class="header__text-container">
+         <p class="text header__text">Триатлонные старты, горные серпантины или
           грейвел заезды по живописным маршрутам – нужно только 
           определиться с выбором велосипеда и отправиться в путь.</p>
-       <button type="button" class="button header__button">
-         <a href="#" class="header__link">Подробнее</a> 
-         <div class="button__background"></div>
-       </button>
+         <button type="button" class="button header__button">
+           <a href="#" class="header__link">Подробнее</a> 
+           <div class="button__background"></div>
+         </button>
+       </div>
        <p class="header__text header__bike-name">Cannondale Systemsix<span class="header__line"></span></p>
-      </div>
       <div class="header__image-container">
         <img src="./images/Placeholder.jpg" class="header__image" alt="">
         <div class="header__sticky-container">
@@ -40,7 +69,7 @@
   </header>
   <main class="main">
    <section class="quote main__quote">
-     <img src="./images/road.jpg" alt="">
+     <img src="./images/road.jpg" alt="" class="quote__image">
      <div class="quote__container">
        <q class="quote__title">Катайся много или мало, долго или коротко, 
          как хочешь - но катайся</q>
@@ -49,28 +78,20 @@
      </div>
    </section>
    <section class="slider-road" id="road-item">
-     <div class="slider-road__title-container">
-       <div class="slider-road__item">
-         <h2 class="title slider-road__title">Шоссе</h2>
-         <p class="text slider-road__text">На шоссейном велосипеде можно 
+      <h2 class="title slider-road__title">Шоссе</h2>
+      <p class="text slider-road__text">На шоссейном велосипеде можно 
            ездить по асфальту на разных градиентах: будь то горы или 
            равнины. Гонки проходят в командном пелотоне, но тренироваться 
            можно и самостоятельно.</p>
-       </div>
-       <div class="slider-road__item">
-        <h2 class="title slider-road__title">Грэвел</h2>
-        <p class="text slider-road__text">Грэвел похож на шоссейный велосипед, 
+      <h2 class="title slider-road__title">Грэвел</h2>
+      <p class="text slider-road__text">Грэвел похож на шоссейный велосипед, 
           но конструкция рамы немного отличается, и на нём стоят более 
           широкие покрышки, всё для того чтобы проехать по лёгкому 
           бездорожью.</p>
-       </div>
-       <div class="slider-road__item">
-        <h2 class="title slider-road__title">ТТ</h2>
-        <p class="text slider-road__text">ТТ — это велосипед для триатлона 
+      <h2 class="title slider-road__title">ТТ</h2>
+      <p class="text slider-road__text">ТТ — это велосипед для триатлона 
           или раздельного старта, гоняют на таком велике только по 
           равнинному асфальту, велик очень быстрый и аэродинамичный.</p>
-       </div>
-     </div>
      <div class="slider-road__list">
        <ul class="slider-road__image-container">
          <li class="slider-road__image-item">
@@ -93,10 +114,11 @@
        <button type="button" class="button slider-road__button slider-road__button_direction_left">
          <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_left" alt="">
        </button>
-       <button type="button" class="button slider-road__button slider-road__button_direction_right" id="bicycles">
+       <button type="button" class="button slider-road__button slider-road__button_direction_right" >
         <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_right" alt="">
        </button>
      </div>
+     <div id="bicycles"></div>
    </section>
    <section class="bicycles">
      <div class="bicycles__header">
@@ -107,6 +129,11 @@
          <li class="bicycles__list-item" id="3">ТТ</li>
        </ul>
      </div>
+     <select name="bicycles" id="choice__bicycles" class="bicycles__choice">
+       <option value="1">Шоссе</option>
+       <option value="2">Грэвел</option>
+       <option value="3">ТТ</option>
+     </select>
      <div class="bicycles__slider-container">
        <ul class="bicycles__slides">
          <li class="bicycles__slide">
@@ -189,21 +216,24 @@
         </li>
       </ul>
      </div>
-     <div class="slider-bic" id="workout">
-
+     <div class="bicycles__switch-container">
+      <button type="button" class="bicycles__switch"></button>
+      <button type="button" class="bicycles__switch"></button>
+      <button type="button" class="bicycles__switch"></button>
      </div>
+     <div class="slider-bic" id="workout"></div>
    </section>
-   <section class="workout main__workout">
-    <div class="workout__container">
-      <h2 class="title workout__title">Тренировки</h2>
-      <p class="text workout__text">Чтобы найти маршрут для тренировки 
+   <section class="workout main__workout" >
+     <h2 class="title workout__title">Тренировки</h2>
+     <div class="workout__container">
+       <p class="text workout__text">Чтобы найти маршрут для тренировки 
           можно воспользоваться сервисом Komoot, а записать эти 
           тренировки поможет приложение Strava, а также это приложение 
           позволит построить тренировочный план.</p>
-      <ul class="workout__list">
-        <li class="workout__list-item"><a href="https://www.strava.com" class="workout__link" target="_blanck">Strava</a></li>
-        <li class="workout__list-item"><a href="https://www.komoot.com" class="workout__link" target="_blanck">Komoot</a></li>
-      </ul>
+       <ul class="workout__list">
+         <li class="workout__list-item"><a href="https://www.strava.com" class="workout__link" target="_blanck">Strava</a></li>
+         <li class="workout__list-item"><a href="https://www.komoot.com" class="workout__link" target="_blanck">Komoot</a></li>
+       </ul>
     </div>
     <img src="./images/workout-image.jpg" alt="" class="workout__image">
    </section>
@@ -213,10 +243,10 @@
       <h3 class="footer__form-title">Подпишитесь на рассылку -</h3>
       <div class="footer__item">
         <input type="email" class="footer__email" placeholder="Ваш e-mail">
-        <input type="button" value="oк" class="footer__submit">
+        <input type="submit" value="oк" class="footer__submit">
       </div>
-      <p class="footer__text">© Road Club 2021</p>
     </form>
+    <p class="footer__text">© Road Club 2021</p>
     <div class="footer__theme-container">
       <img src="./images/sun.svg" alt="иконка солнце" class="footer__sun">
       <div class="footer__switch-container">
@@ -224,6 +254,7 @@
       </div>
       <img src="./images/moon.svg" alt="иконка луна" class="footer__moon">
     </div>
+    <img src="./images/logo__COLOR_main-1.svg" alt="иконка настройки" class="footer__icon">
   </footer>
   <script src="./scripts/scripts.js"></script>
 </body>

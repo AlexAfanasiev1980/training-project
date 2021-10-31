@@ -2,4 +2,10 @@
   max-width: 1440px;
   background-color: #f4f4f4;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1350px) {
+  .page {
+    max-width: 320px;
+  }
 }/*# sourceMappingURL=page.css.map */

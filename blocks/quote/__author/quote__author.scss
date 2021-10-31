@@ -6,3 +6,10 @@
   margin: 262px 0 0 120px;
   color: $black-ligth;
 }
+
+@media screen and (max-width: 1350px) {
+  .quote__author {
+    @include font (14px, 500, $line-height: 1.57);
+    margin: 40px 0 0 0;
+  }
+}

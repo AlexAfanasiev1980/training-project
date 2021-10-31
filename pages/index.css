@@ -4,6 +4,7 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__close-icon/menu__close-icon.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -18,11 +19,16 @@
 @import url(../blocks/header/__sticky-image/header__sticky-image.css);
 @import url(../blocks/header/__line/header__line.css);
 @import url(../blocks/header/__bike-name/header__bike-name.css);
+@import url(../blocks/header/__text-container/header__text-container.css);
+@import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/main/__quote/main__quote.css);
 @import url(../blocks/quote/__title/quote__title.css);
 @import url(../blocks/quote/__author/quote__author.css);
 @import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__container/quote__container.css);
+@import url(../blocks/slider-road/slider-road.css);
 @import url(../blocks/slider-road/__title-container/slider-road__title-container.css);
 @import url(../blocks/slider-road/__title/slider-road__title.css);
 @import url(../blocks/slider-road/__text/slider-road__text.css);
@@ -33,6 +39,7 @@
 @import url(../blocks/slider-road/__icon/slider-road__icon.css);
 @import url(../blocks/slider-road/__button/slider-road__button.css);
 @import url(../blocks/slider-road/__button-container/slider-road__button-container.css);
+@import url(../blocks/slider-road/__arrow/slider-road__arrow.css);
 @import url(../blocks/slider-road/__arrow/_direction/slider-road__arrow_direction_left.css);
 @import url(../blocks/slider-road/__image-item/slider-road__image-item.css);
 @import url(../blocks/slider-road/__list/slider-road__list.css);
@@ -47,6 +54,10 @@
 @import url(../blocks/bicycles/__image/bicycles__image.css);
 @import url(../blocks/bicycles/__text/bicycles__text.css);
 @import url(../blocks/bicycles/__list-item/_active/bicycles__list-item_active.css);
+@import url(../blocks/bicycles/__choice/bicycles__choice.css);
+@import url(../blocks/bicycles/__switch/bicycles__switch.css);
+@import url(../blocks/bicycles/__switch/_type/bicycles__switch_type_active.css);
+@import url(../blocks/bicycles/__switch-container/bicycles__switch-container.css);
 @import url(../blocks/main/__workout/main__workout.css);
 @import url(../blocks/workout/workout.css);
 @import url(../blocks/workout/__image/workout__image.css);
@@ -68,3 +79,11 @@
 @import url(../blocks/footer/__moon/footer__moon.css);
 @import url(../blocks/footer/__switch/footer__switch.css);
 @import url(../blocks/footer/__switch/_theme/footer__switch_theme_dark.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/menu/__icon/menu__icon.css);
+@import url(../blocks/menu-popup/menu-popup.css);
+@import url(../blocks/menu-popup/__theme-container/menu-popup__theme-container.css);
+@import url(../blocks/menu-popup/__links/menu-popup__links.css);
+@import url(../blocks/menu-popup/__link/menu-popup__link.css);
+@import url(../blocks/menu-popup/__list-item/menu-popup__list-item.css);

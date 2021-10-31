@@ -1,0 +1,8 @@
+@media screen and (max-width: 1350px) {
+  .quote__image {
+    width: 284px;
+    grid-area: image;
+    border-top: 1px solid #E3E3E3;
+    padding-top: 20px;
+  }
+}/*# sourceMappingURL=quote__image.css.map */

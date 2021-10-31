@@ -10,3 +10,11 @@
   background-color: $page;
   box-shadow: 0 0 220px rgba(0, 0, 0, 0.05);
 }
+
+
+@media screen and (max-width: 1350px) {
+  .bicycles__slide-item {
+    width: 284px;
+    height: 284px;
+  }
+}

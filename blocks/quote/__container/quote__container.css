@@ -1,0 +1,6 @@
+@media screen and (max-width: 1350px) {
+  .quote__container {
+    grid-area: text;
+    margin: 40px 0 0 0;
+  }
+}/*# sourceMappingURL=quote__container.css.map */

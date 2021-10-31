@@ -25,4 +25,12 @@
   padding: 0;
   -webkit-animation: fade 1.5s;
           animation: fade 1.5s;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__slides {
+    margin: 0 0 0 18px;
+    width: 302px;
+    position: relative;
+  }
 }/*# sourceMappingURL=bicycles__slides.css.map */

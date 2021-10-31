@@ -7,4 +7,13 @@
 
 .workout__list-item:last-child {
   margin: 0 0 0 30px;
+}
+
+@media screen and (max-width: 1350px) {
+  .workout__list-item {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 1.43;
+  }
 }/*# sourceMappingURL=workout__list-item.css.map */
