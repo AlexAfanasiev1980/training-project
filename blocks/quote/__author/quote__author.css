@@ -4,7 +4,7 @@
   font-family: Inter;
   line-height: 1.6;
   margin: 262px 0 0 120px;
-  color: #151515;
+  color: inherit;
 }
 
 @media screen and (max-width: 1350px) {

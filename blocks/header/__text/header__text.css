@@ -1,4 +1,8 @@
 .header__text {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Inter;
+  line-height: 1;
   width: 460px;
   margin: 50px 0 0 120px;
 }

@@ -4,6 +4,7 @@
 .title {
   @include font(55px, 700, Inter, 1.09);
   color: $black-ligth;
+  color: unset;
   letter-spacing: -0.5px;
 }
 

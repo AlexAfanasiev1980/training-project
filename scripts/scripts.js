@@ -248,15 +248,55 @@ function visibilityButtonNone() {
 inputSubmit.addEventListener('click', visibilityButtonNone);
 
 //переключение темы
-
+const body = document.querySelector(".page");
+const menu = document.querySelector(".menu");
+const text = document.querySelectorAll(".text");
+const sliderRoadButton = document.querySelectorAll(".slider-road__button");
+const sliderArrow = document.querySelectorAll(".slider-road__arrow");
+const quoteText = document.querySelector(".quote__text");
+const footer = document.querySelector(".footer");
+const workoutLink =document.querySelectorAll(".workout__link");
+const sun = document.querySelectorAll(".footer__sun");
+const moon = document.querySelectorAll(".footer__moon");
+const menuPopup = document.querySelector(".menu-popup");
+let theme = "ligth";
 function switchThemeDark() {
   for (let i=0; i<switchTheme.length; i++){
     switchTheme[i].classList.toggle("footer__switch_theme_dark");
   }
+  if (theme === "ligth") {
+    body.classList.add("page_theme_dark");
+    menu.style.background = "#333";
+    quoteText.classList.add("quote__text_theme_dark");
+    menuPopup.classList.add("menu-popup_theme_dark");
+    text.forEach(el => el.classList.add("text_theme_dark"));
+    sliderRoadButton.forEach(el => el.classList.add("slider-road__button_theme_dark"));
+    sliderArrow.forEach(el => el.src = "./images/arrow_white.svg");
+    workoutLink.forEach(el => el.classList.add("workout__link_theme_dark"));
+    buttonSwitch.forEach(el => el.classList.add("footer__switch-container_theme_dark"));
+    sun.forEach(el => el.classList.add("footer__sun_theme_dark"));
+    moon.forEach(el => el.classList.add("footer__sun_theme_dark"));
+    footer.classList.add("footer_theme_dark");
+    // document.querySelector(".")
+    theme = "dark";
+  } else {
+    body.classList.remove("page_theme_dark");
+    menu.style.background = "#f4f4f4";
+    quoteText.classList.remove("quote__text_theme_dark");
+    text.forEach(el => el.classList.remove("text_theme_dark"));
+    menuPopup.classList.remove("menu-popup_theme_dark");
+    sliderRoadButton.forEach(el => el.classList.remove("slider-road__button_theme_dark"));
+    sliderArrow.forEach(el => el.src = "./images/arrow.svg");
+    footer.classList.remove("footer_theme_dark");
+    workoutLink.forEach(el => el.classList.remove("workout__link_theme_dark"));
+    buttonSwitch.forEach(el => el.classList.remove("footer__switch-container_theme_dark"));
+    sun.forEach(el => el.classList.remove("footer__sun_theme_dark"));
+    moon.forEach(el => el.classList.remove("footer__sun_theme_dark"));
+    theme = "ligth";
+  }
 }
 
 for (let i=0; i<buttonSwitch.length; i++) {
-  console.log(buttonSwitch[i]);
   buttonSwitch[i].addEventListener('click', switchThemeDark);
 }
 

@@ -1,6 +1,6 @@
 .workout__link {
   text-decoration: none;
-  color: #151515;
+  color: inherit;
 }
 
 .workout__link:hover {

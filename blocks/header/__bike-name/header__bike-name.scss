@@ -1,11 +1,12 @@
 @import "../../../variables/_fonts";
 
 .header__bike-name {
-  color: $black-ligth;
+  // color: $black-ligth;
   opacity: 1;
   line-height: 1;
   margin: 167px 0 0 120px;
   grid-area: bic;
+  color: inherit;
 }
 
 @media screen and (max-width: 1350px) {

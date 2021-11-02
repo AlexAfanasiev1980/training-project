@@ -1,9 +1,11 @@
 @import "../../variables/_screens";
 @import "../../variables/_theme";
 @import "../../variables/_align";
+@import "../../variables/_fonts";
 
 .page {
   max-width: $desktop;
+  color: $black-ligth;
   background-color: $page;
   margin: $align-center;
 }
