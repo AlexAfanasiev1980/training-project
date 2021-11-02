@@ -87,3 +87,12 @@
 @import url(../blocks/menu-popup/__links/menu-popup__links.css);
 @import url(../blocks/menu-popup/__link/menu-popup__link.css);
 @import url(../blocks/menu-popup/__list-item/menu-popup__list-item.css);
+@import url(../blocks/page/_theme/page_theme_dark.css);
+@import url(../blocks/text/_theme/text_theme_dark.css);
+@import url(../blocks/slider-road/__button/_theme/slider-road__button_theme_dark.css);
+@import url(../blocks/quote/__text/_theme/quote__text_theme_dark.css);
+@import url(../blocks/footer/_theme/footer_theme_dark.css);
+@import url(../blocks/workout/__link/_theme/workout__link_theme_dark.css);
+@import url(../blocks/footer/__switch-container/_theme/footer__switch-container_theme_dark.css);
+@import url(../blocks/footer/__sun/_theme/footer__sun_theme_dark.css);
+@import url(../blocks/menu-popup/_theme/menu-popup__theme_dark.css);
