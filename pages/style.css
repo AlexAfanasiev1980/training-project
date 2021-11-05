@@ -1541,7 +1541,7 @@ template {
   width: 22px;
   height: 22px;
   align-self: flex-start;
-  background-image: url(../../../images/menu-icon.svg);
+  background-image: url(../images/menu-icon.svg);
   background-repeat: no-repeat;
   background-color: transparent;
   cursor: pointer;
@@ -1651,15 +1651,15 @@ template {
 }
 
 .menu__icon_theme_dark {
-  background-image: url(../../../../images/menu-icon-dark.svg);
+  background-image: url(../images/menu-icon-dark.svg);
   background-color: transparent;
 }
 
 .menu__icon_type_close {
-  background-image: url(../../../../images/menu-icon-close.svg);
+  background-image: url(../images/menu-icon-close.svg);
 }
 
 .menu__close-icon_theme_dark {
-  background-image: url(../../../../images/menu-icon-close-dark.svg);
+  background-image: url(../images/menu-icon-close-dark.svg);
   background-color: transparent;
 }/*# sourceMappingURL=style.css.map */
