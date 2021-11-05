@@ -1,3 +1,9 @@
 .workout__container {
   grid-area: text;
+}
+
+@media screen and (max-width: 959px) {
+  .workout__container {
+    margin: 0 0 0 18px;
+  }
 }/*# sourceMappingURL=workout__container.css.map */

@@ -1,0 +1,10 @@
+@media screen and (max-width: 1350px) {
+  .intro__image {
+    width: 488px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .intro__image {
+    width: 254px;
+  }
+}/*# sourceMappingURL=intro__image.css.map */

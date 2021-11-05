@@ -1,6 +1,3 @@
-@import "../../variables/_mixins";
-@import "../../variables/_theme";
-
 .menu {
   height: 74px;
   @include flex(flex-end);
@@ -8,12 +5,5 @@
   top: 0;
   background-color: $page;
   width: 100%;
-  max-width: 1440px;
   z-index: 999;
-}
-
-@media screen and (max-width: 1350px) {
-  .menu {
-    max-width: 320px;
-  }
 }

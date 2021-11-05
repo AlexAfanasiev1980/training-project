@@ -4,10 +4,10 @@
   margin: 50px 0 60px 120px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .slider-road__button-container {
     grid-area: button;
-    margin: 50px 0 60px 0;
+    margin: 50px 18px 60px 0;
     justify-self: flex-end;
   }
 }/*# sourceMappingURL=slider-road__button-container.css.map */

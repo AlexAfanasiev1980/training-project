@@ -1,7 +1,5 @@
-@import "../../../variables/_mixins";
-
 .footer__text {
-  @include font(14px, 600, Inter, 1.4);
+  @include font(14px, 600, $inter, 1.4);
   color: #cfcfcf;
   margin: 100px 0 0 0;
   grid-area: text;

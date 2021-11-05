@@ -1,1 +1,1 @@
-{"version":3,"sources":["footer__form-title.scss","../../../variables/_mixins.scss"],"names":[],"mappings":"AAEA;ECOE,eDNc;ECOd,gBDPoB;ECQpB,kBDRyB;ECSzB,iBDTgC;EAChC,YAAA;EACA,kBAAA;AAEF;;AACA;EACE;IACE,kBAAA;EAEF;AACF","file":"footer__form-title.css"}
+{"version":3,"sources":["footer__form-title.scss","../../../variables/_mixins.scss"],"names":[],"mappings":"AAEA;ECSE,eDRc;ECSd,gBDToB;ECUpB,kBDVyB;ECWzB,iBDXgC;EAChC,YAAA;EACA,kBAAA;AAEF;;AACA;EACE;IACE,kBAAA;EAEF;AACF","file":"footer__form-title.css"}

@@ -1,13 +1,16 @@
-@import "../../../variables/_mixins";
-@import "../../../variables/_fonts";
-
 .bicycles__list-item {
   @include font(18px, normal, Inter, 1.56);
-  color: $color-text;
+  color: inherit;
   opacity: 0.7;
   margin: 0 40px 0 0;
 }
 
 .bicycles__list-item:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .bicycles__list-item {
+    @include font(14px, normal, Inter, 1.56);
+  }
 }

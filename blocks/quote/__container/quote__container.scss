@@ -1,6 +1,13 @@
 @media screen and (max-width: 1350px) {
   .quote__container {
     grid-area: text;
-    margin: 40px 0 0 0;
+    margin: 0 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .quote__container {
+    grid-area: text;
+    margin: 40px 0 0 18px;
   }
 }

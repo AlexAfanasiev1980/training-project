@@ -18,7 +18,7 @@
   background-color: rgba(235, 235, 235, 0.6);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .slider-road__button {
     width: 24px;
     height: 24px;

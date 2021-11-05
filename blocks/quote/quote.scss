@@ -3,12 +3,19 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-
 @media screen and (max-width: 1350px) {
+  .quote {
+    grid-template-areas: 
+    "image text";
+  }
+}
+
+@media screen and (max-width: 959px) {
   .quote {
     grid-template-columns: 1fr;
     grid-template-areas: 
     "image"
     "text";
+    width: 320px;
   }
 }

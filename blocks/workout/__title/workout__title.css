@@ -1,4 +1,12 @@
 .workout__title {
   margin: 0;
   grid-area: title;
+}
+
+@media screen and (max-width: 959px) {
+  .workout__title {
+    padding-top: 40px;
+    border-top: 1px solid #E3E3E3;
+    margin: 0 0 0 18px;
+  }
 }/*# sourceMappingURL=workout__title.css.map */

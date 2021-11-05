@@ -1,0 +1,20 @@
+.intro__text {
+  @include font(18px, normal, $inter, 1);
+  width: 460px;
+  margin: -40px 0 0 120px;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__text {
+    width: 368px;
+    @include font(14px, normal, $inter, 1);
+    margin: -10px 0 0 120px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .intro__text {
+    margin: 0 0 40px 18px;
+    width: 284px;
+  }
+}

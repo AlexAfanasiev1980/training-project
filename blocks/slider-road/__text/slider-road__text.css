@@ -3,9 +3,9 @@
   max-width: 460px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .slider-road__text {
-    margin: 40px 0 40px 0;
+    margin: 40px 0 40px 18px;
     max-width: 284px;
     grid-area: text;
   }

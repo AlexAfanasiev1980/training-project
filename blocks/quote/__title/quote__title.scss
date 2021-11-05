@@ -1,15 +1,20 @@
-@import "../../../variables/_mixins";
-@import "../../../variables/_fonts";
-
 .quote__title {
   @include font (34px, 600, $line-height: 1.29);
   display: block;
   max-width: 470px;
-  margin: 0 0 0 120px;
+  margin: 0 0 262px 120px;
   color: inherit;
 }
 
 @media screen and (max-width: 1350px) {
+  .quote__title {
+    @include font (25px, 600, $line-height: 1.26);
+    max-width: 376px;
+    margin: 0 0 204px 0;
+  }
+}
+
+@media screen and (max-width: 959px) {
   .quote__title {
     @include font (23px, 600, $line-height: 1.26);
     max-width: 284px;

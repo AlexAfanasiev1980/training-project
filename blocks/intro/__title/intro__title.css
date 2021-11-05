@@ -1,0 +1,11 @@
+.intro__title {
+  width: 300px;
+  margin: 70px 0 0 120px;
+  grid-area: title;
+}
+
+@media screen and (max-width: 959px) {
+  .intro__title {
+    margin: 40px 0 40px 18px;
+  }
+}/*# sourceMappingURL=intro__title.css.map */

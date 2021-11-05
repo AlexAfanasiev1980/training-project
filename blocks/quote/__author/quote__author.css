@@ -1,7 +1,7 @@
 .quote__author {
   font-size: 20px;
   font-weight: 500;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   line-height: 1.6;
   margin: 262px 0 0 120px;
   color: inherit;
@@ -11,7 +11,7 @@
   .quote__author {
     font-size: 14px;
     font-weight: 500;
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     line-height: 1.57;
     margin: 40px 0 0 0;
   }

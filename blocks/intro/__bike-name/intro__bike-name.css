@@ -1,0 +1,34 @@
+.intro__bike-name {
+  opacity: 1;
+  line-height: 1;
+  margin: 167px 0 0 120px;
+  grid-area: bic;
+  color: inherit;
+  position: relative;
+}
+
+.intro__bike-name::after {
+  content: "";
+  width: 132px;
+  position: absolute;
+  top: 9px;
+  right: 80px;
+  border: 1px solid #D7D4D4;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__bike-name::after {
+    content: "";
+    width: 106px;
+    top: 7px;
+    right: 80px;
+    border: 1px solid #D7D4D4;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 959px) {
+  .intro__bike-name {
+    display: none;
+  }
+}/*# sourceMappingURL=intro__bike-name.css.map */

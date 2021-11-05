@@ -1,8 +1,15 @@
 @media screen and (max-width: 1350px) {
   .quote__image {
-    width: 284px;
+    width: 520px;
     grid-area: image;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .quote__image {
+    width: 284px;
     border-top: 1px solid #E3E3E3;
     padding-top: 20px;
+    margin: 0 0 0 18px;
   }
 }

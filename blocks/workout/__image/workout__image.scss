@@ -5,8 +5,14 @@
 
 @media screen and (max-width: 1350px) {
   .workout__image {
+    width: 464px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .workout__image {
     width: 284px;
     justify-self: start;
-    margin: 40px 0 0 0;
+    margin: 40px 0 0 18px;
   }
 }

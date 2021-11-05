@@ -1,11 +1,17 @@
 .menu__icon {
   margin: 28px 18px 0 0;
+  width: 22px;
+  height: 22px;
   align-self: flex-start;
+  background-image: url(../images/menu-icon.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
   cursor: pointer;
   display: none;
+  border: none;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .menu__icon {
     display: block;
   }

@@ -1,0 +1,30 @@
+.intro__sticky {
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 401px;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__sticky {
+    width: 352px;
+    height: 240px;
+    top: 321px;
+    box-shadow: -20px 15px 150px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .intro__sticky {
+    width: 234px;
+    height: 160px;
+    top: 225px;
+    box-shadow: -10px 4px 100px rgba(0, 0, 0, 0.2);
+  }
+}

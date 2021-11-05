@@ -1,27 +1,31 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/title/title.css);
-@import url(../blocks/page/page.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__links/menu__links.css);
-@import url(../blocks/menu/__link/menu__link.css);
-@import url(../blocks/menu/__close-icon/menu__close-icon.css);
-@import url(../blocks/header/__content/header__content.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__text/header__text.css);
-@import url(../blocks/header/__button/header__button.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/button/__background/button__background.css);
-@import url(../blocks/button/__background/_active/button__background_active.css);
-@import url(../blocks/header/__sticky/header__sticky.css);
-@import url(../blocks/header/__sticky-container/header__sticky-container.css);
-@import url(../blocks/header/__image-container/header__image-container.css);
-@import url(../blocks/header/__sticky-image/header__sticky-image.css);
-@import url(../blocks/header/__line/header__line.css);
-@import url(../blocks/header/__bike-name/header__bike-name.css);
-@import url(../blocks/header/__text-container/header__text-container.css);
-@import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/quote/quote.css);
+/* @import url(../vendor/normalize.css); */
+/* @import "../variables/_mixins.scss"; */
+/* @import "../variables/_fonts.scss"; */
+/* @import url(../blocks/title/title.css); */
+/* @import url(../blocks/page/pageim.css); */
+/* @import url(../blocks/menu/menu.css); */
+/* @import url(../blocks/menu/__links/menu__links.css); */
+/* @import url(../blocks/menu/__link/menu__link.css); */
+/* @import url(../blocks/menu/__close-icon/menu__close-icon.css); */
+/* @import url(../blocks/header/__content/header__content.css); */
+/* @import url(../blocks/header/header.css); */
+/* @import url(../blocks/header/__title/header__title.css); */
+/* @import url(../blocks/header/__text/header__text.css); */
+/* @import url(../blocks/header/__button/header__button.css); */
+/* @import url(../blocks/header/__link/header__link.css); */
+/* @import url(../blocks/button/__background/button__background.css); */
+/* @import url(../blocks/button/__background/_active/button__background_active.css); */
+/* @import url(../blocks/header/__sticky/header__sticky.css); */
+/* @import url(../blocks/header/__sticky-container/header__sticky-container.css); */
+/* @import url(../blocks/header/__image-container/header__image-container.css); */
+/* @import url(../blocks/header/__sticky-image/header__sticky-image.css); */
+/* @import url(../blocks/header/__line/header__line.css); */
+/* @import url(../blocks/header/__bike-name/header__bike-name.css); */
+/* @import url(../blocks/header/__text-container/header__text-container.css); */
+/* @import url(../blocks/header/__image/header__image.css); */
+
+
+/* @import url(../blocks/quote/quote.css);
 @import url(../blocks/main/__quote/main__quote.css);
 @import url(../blocks/quote/__title/quote__title.css);
 @import url(../blocks/quote/__author/quote__author.css);
@@ -87,7 +91,7 @@
 @import url(../blocks/menu-popup/__links/menu-popup__links.css);
 @import url(../blocks/menu-popup/__link/menu-popup__link.css);
 @import url(../blocks/menu-popup/__list-item/menu-popup__list-item.css);
-@import url(../blocks/page/_theme/page_theme_dark.css);
+
 @import url(../blocks/text/_theme/text_theme_dark.css);
 @import url(../blocks/slider-road/__button/_theme/slider-road__button_theme_dark.css);
 @import url(../blocks/quote/__text/_theme/quote__text_theme_dark.css);
@@ -96,3 +100,4 @@
 @import url(../blocks/footer/__switch-container/_theme/footer__switch-container_theme_dark.css);
 @import url(../blocks/footer/__sun/_theme/footer__sun_theme_dark.css);
 @import url(../blocks/menu-popup/_theme/menu-popup__theme_dark.css);
+@import url(../blocks/page/_theme/page_theme_dark.css); */
