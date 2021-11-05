@@ -1,11 +1,9 @@
-@import "../../../variables/_mixins";
-
 .bicycles__header {
   @include flex(space-between);
   margin: 0 0 0 120px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .bicycles__header {
     margin: 40px 18px 40px 18px;
     padding-top: 40px;

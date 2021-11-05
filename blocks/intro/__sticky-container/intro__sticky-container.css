@@ -1,0 +1,21 @@
+.intro__sticky-container {
+  height: 430px;
+  position: absolute;
+  top: 327px;
+  left: -200px;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__sticky-container {
+    top: 290px;
+    left: -160px;
+    height: 344px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .intro__sticky-container {
+    top: 151px;
+    left: -30px;
+    height: 185px;
+  }
+}/*# sourceMappingURL=intro__sticky-container.css.map */

@@ -1,10 +1,12 @@
 .bicycles__slider-container {
-  margin: 120px 0 60px 0;
+  max-width: 1440px;
+  margin: 120px auto 60px auto;
 }
 
 @media screen and (max-width: 1350px) {
   .bicycles__slider-container {
-    margin: 20px 0 36px 0;
+    max-width: 906px;
+    margin: 20px auto 36px auto;
     overflow-x: hidden;
   }
 }

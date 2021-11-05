@@ -1,0 +1,12 @@
+.intro__image-container {
+  position: relative;
+  justify-self: flex-end;
+  z-index: -1;
+  grid-area: image;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__image-container {
+    margin: 0 18px 40px 0;
+  }
+}/*# sourceMappingURL=intro__image-container.css.map */

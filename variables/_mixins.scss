@@ -6,7 +6,9 @@
   flex-wrap: $wrap;
 }
 
-@mixin font ($size: 14px, $weigth: normal, $family: Inter, $line-height: 1) {
+// $inter: Inter, Arial, sans-serif;
+
+@mixin font ($size: 14px, $weigth: normal, $family: $inter, $line-height: 1) {
   font-size: $size;
   font-weight: $weigth;
   font-family: $family;

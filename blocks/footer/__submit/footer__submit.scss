@@ -1,10 +1,10 @@
-@import "../../../variables/_mixins";
-
 .footer__submit {
   width: 20px;
   padding: 0;
   border: none;
-  @include font(13px, 500, Inter, 2.15);
+  @include font(13px, 500, $inter, 2.15);
   cursor: pointer;
+  background-color: inherit;
+  color: inherit;
   display: none;
 }

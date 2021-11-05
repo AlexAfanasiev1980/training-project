@@ -1,0 +1,18 @@
+.intro__sticky-image {
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__sticky-image {
+    width: 272px;
+    height: 208px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .intro__sticky-image {
+    width: 180px;
+    height: 138px;
+  }
+}/*# sourceMappingURL=intro__sticky-image.css.map */

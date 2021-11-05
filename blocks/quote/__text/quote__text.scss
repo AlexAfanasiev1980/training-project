@@ -1,6 +1,3 @@
-@import "../../../variables/_mixins";
-@import "../../../variables/_fonts";
-
 .quote__text {
   @include font(16px, $line-height: 1.75);
   color: $color-text;

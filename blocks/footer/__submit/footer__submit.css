@@ -7,5 +7,7 @@
   font-family: Inter;
   line-height: 2.15;
   cursor: pointer;
+  background-color: inherit;
+  color: inherit;
   display: none;
 }/*# sourceMappingURL=footer__submit.css.map */

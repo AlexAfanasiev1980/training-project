@@ -4,10 +4,9 @@
   grid-template-areas: "title image" "text image";
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .workout {
     grid-template-columns: 1fr;
     grid-template-areas: "title" "image" "text";
-    border-top: 1px solid #E3E3E3;
   }
 }/*# sourceMappingURL=workout.css.map */

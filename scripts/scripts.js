@@ -1,4 +1,3 @@
-const headerLink = document.querySelector(".header__link");
 const buttonBackground = document.querySelector(".button__background");
 const slidesTitle = document.querySelectorAll(".slider-road__title");
 const slidesText = document.querySelectorAll(".slider-road__text");
@@ -8,6 +7,7 @@ const buttonLeft = document.querySelector(".slider-road__button_direction_left")
 const slidesImage = document.querySelectorAll(".slider-road__image-item");
 const slidesContainer = document.querySelector(".slider-road__image-container");
 const buttonBicycles = document.querySelectorAll(".bicycles__list-item");
+const buttonBic = document.querySelectorAll(".bicycles__button");
 const slidesBicycles = document.querySelectorAll(".bicycles__slides")
 const inputEmail = document.querySelector(".footer__email");
 const inputSubmit = document.querySelector(".footer__submit");
@@ -23,22 +23,17 @@ const popupItem = document.querySelectorAll(".menu-popup__list-item");
 let slidesWidth = slidesContainer.offsetWidth;;
 window.addEventListener('resize', function() {
   slidesWidth = slidesContainer.offsetWidth;
-  if (slidesWidth>1230) {
+  if (slidesWidth>922) {
     slidesContainer.style.left = -690 + "px";
   } else {
     slidesContainer.style.left = -302 + "px";
   }
+  if (popupOpenIndex === 1) {
+    popupOpen();
+  }
 });
 // slidesContainer.offsetWidth;
 let slideIndex = 1;
-
-headerLink.addEventListener('mouseenter', function () {
-  buttonBackground.classList.add("button__background_active")
-})
-
-headerLink.addEventListener('mouseleave', function () {
-  buttonBackground.classList.remove("button__background_active")
-})
 
 //Функция слайдера видов шоссе
 let slidesRoad = [];
@@ -80,7 +75,7 @@ for (let i = 0; i <= slidesRoad.length; i++) {
   pointSlide(i);
 }
 
-if (slidesWidth>1230) {
+if (slidesWidth>922) {
   slidesContainer.style.left = -690 + "px";
 } else {
   slidesContainer.style.left = -302 + "px";
@@ -97,7 +92,7 @@ function right() {
   }
   showSlideList(position);
   //сдвигаем слайд вправо
-  if (slidesWidth>1230) {
+  if (slidesWidth>922) {
     slidesContainer.style.left = -690 + (-690) + "px";
   } else {
     slidesContainer.style.left = -302 + (-302) + "px";
@@ -118,7 +113,7 @@ function right() {
   let slidesImage2 = document.querySelectorAll(".slider-road__image-item");
   slidesImage2[0].remove();
   //устанавливаем первоначальный отступ
-  if (slidesWidth>1230) {
+  if (slidesWidth>922) {
     slidesContainer.style.left = -690 + "px";
   } else {
     slidesContainer.style.left = -302 + "px";
@@ -156,7 +151,7 @@ function left() {
   slide.appendChild(image);
   slidesContainer.prepend(slide);
   //устанавливаем первоначальный отступ
-  if (slidesWidth>1230) {
+  if (slidesWidth>959) {
     slidesContainer.style.left = -690 + "px";
   } else {
     slidesContainer.style.left = -302 + "px";
@@ -205,18 +200,16 @@ showSlides(slideIndex);
 function bicyclesChoice(e) {
   for (i = 0; i < buttonBicycles.length; i++) {
     slidesBicycles[i].style.display = "none";
-}
+  }
   for (i = 0; i < buttonBicycles.length; i++) {
-  buttonBicycles[i].classList.remove("bicycles__list-item_active");
-}
-slidesBicycles[e.target.id-1].style.display = "flex";
-buttonBicycles[e.target.id-1].classList.add("bicycles__list-item_active");
-  console.log(e.target.id);
-
+    buttonBicycles[i].classList.remove("bicycles__list-item_active");
+  }
+  slidesBicycles[e.target.id-1].style.display = "flex";
+  buttonBicycles[e.target.id-1].classList.add("bicycles__list-item_active");
 }
 
 for (i = 0; i < buttonBicycles.length; i++) {
-  buttonBicycles[i].addEventListener('click', bicyclesChoice);
+  buttonBic[i].addEventListener('click', bicyclesChoice);
 }
 
 //функция установки слайдера велосипеда по умолчанию
@@ -259,6 +252,7 @@ const workoutLink =document.querySelectorAll(".workout__link");
 const sun = document.querySelectorAll(".footer__sun");
 const moon = document.querySelectorAll(".footer__moon");
 const menuPopup = document.querySelector(".menu-popup");
+const bicyckesOption = document.querySelectorAll(".bicycles__option");
 let theme = "ligth";
 function switchThemeDark() {
   for (let i=0; i<switchTheme.length; i++){
@@ -276,7 +270,14 @@ function switchThemeDark() {
     buttonSwitch.forEach(el => el.classList.add("footer__switch-container_theme_dark"));
     sun.forEach(el => el.classList.add("footer__sun_theme_dark"));
     moon.forEach(el => el.classList.add("footer__sun_theme_dark"));
+    bicyckesOption.forEach(el => el.classList.add("bicycles__option_theme_dark"));
     footer.classList.add("footer_theme_dark");
+    if (popupOpenIndex===0) {
+      btnMenu.classList.add("menu__icon_theme_dark");
+    } else {
+      btnMenu.classList.remove("menu__icon_type_close");
+      btnMenu.classList.add("menu__close-icon_theme_dark");
+    }
     // document.querySelector(".")
     theme = "dark";
   } else {
@@ -292,6 +293,13 @@ function switchThemeDark() {
     buttonSwitch.forEach(el => el.classList.remove("footer__switch-container_theme_dark"));
     sun.forEach(el => el.classList.remove("footer__sun_theme_dark"));
     moon.forEach(el => el.classList.remove("footer__sun_theme_dark"));
+    bicyckesOption.forEach(el => el.classList.remove("bicycles__option_theme_dark"));
+    if (popupOpenIndex===0) {
+      btnMenu.classList.remove("menu__icon_theme_dark");
+    } else {
+      btnMenu.classList.add("menu__icon_type_close");
+      btnMenu.classList.remove("menu__close-icon_theme_dark");
+    }
     theme = "ligth";
   }
 }
@@ -357,20 +365,31 @@ window.addEventListener('resize', ()=>{
 })
 
 //раскрытие и закрытие попапа
+let popupOpenIndex = 0;
 function popupOpen() {
-  popup.style.display = "block";
-  btnMenu.style.display = "none";
-  popupCloseButton.style.display = "block";
-}
-
-function popupClose() {
-  popup.style.display = "none";
-  btnMenu.style.display = "block";
-  popupCloseButton.style.display = "none";
+  if (popupOpenIndex === 0) {
+    popup.style.display = "block";
+    if (theme === "dark") {
+      btnMenu.classList.add("menu__close-icon_theme_dark");
+      btnMenu.classList.remove("menu__icon_type_close");
+    } else {
+      btnMenu.classList.add("menu__icon_type_close");
+    }
+    popupOpenIndex = 1;
+  } else {
+    popup.style.display = "none";
+    if (theme === "dark") {
+      btnMenu.classList.remove("menu__close-icon_theme_dark");
+      btnMenu.classList.add("menu__icon_theme_dark");
+    } else {
+      btnMenu.classList.remove("menu__icon_type_close");
+      btnMenu.classList.remove("menu__icon_theme_dark");
+    }
+    popupOpenIndex = 0;
+  }
 }
 
 btnMenu.addEventListener('click', popupOpen);
-popupCloseButton.addEventListener('click', popupClose);
 for (let i=0; i<popupItem.length; i++) {
-popupItem[i].addEventListener('click', popupClose);
+  popupItem[i].addEventListener('click', popupOpen);
 }

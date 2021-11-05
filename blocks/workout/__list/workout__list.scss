@@ -1,6 +1,3 @@
-@import "../../../variables/_mixins";
-@import "../../../variables/_list-style";
-
 .workout__list {
   @include flex();
   list-style-type: $list-style-none;
@@ -9,6 +6,12 @@
 }
 
 @media screen and (max-width: 1350px) {
+  .workout__list {
+    margin: 140px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 959px) {
   .workout__list {
     margin: 40px 0 60px 0;
   }

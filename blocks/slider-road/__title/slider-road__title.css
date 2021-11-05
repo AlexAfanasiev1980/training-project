@@ -3,9 +3,9 @@
   padding-top: 60px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .slider-road__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 40px 18px;
     padding-top: 40px;
     grid-area: title;
   }

@@ -5,7 +5,7 @@
   line-height: 2.15;
   background-color: transparent;
   border: none;
-  color: #222;
+  color: inherit;
   opacity: 0.7;
   padding: 11px 0 11px 20px;
   box-sizing: border-box;
@@ -16,17 +16,17 @@
 .footer__email:active, .footer__email:hover, .footer__email:focus {
   outline: 0;
   outline-offset: 0;
-  color: #151515;
+  color: inherit;
   opacity: 1;
 }
 
 .footer__email::-webkit-input-placeholder, .footer__email::-moz-placeholder {
-  color: #222;
+  color: inherit;
   opacity: 0.7;
 }
 
 .footer__email:hover::-webkit-input-placeholder, .footer__email:focus::-webkit-input-placeholder {
-  color: #151515;
+  color: inherit;
   opacity: 1;
 }
 

@@ -1,10 +1,8 @@
-@import "../../../variables/_mixins";
-@import "../../../variables/_fonts";
-
 .bicycles__text {
-  @include font(18px, 600, Inter, 1.22);
+  @include font(18px, 600, $inter, 1.22);
+  align-self: flex-start;
   color: inherit;
-  margin: 22px 0 0 0;
+  margin: 22px 0 0 10px;
 }
 
 @media screen and (max-width: 1350px) {
@@ -12,6 +10,6 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 3px;
-    @include font(14px, 600, Inter, 1.29);
+    @include font(14px, 600, $inter, 1.29);
   }
 }

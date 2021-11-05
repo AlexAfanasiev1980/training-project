@@ -1,7 +1,5 @@
-@import "../../../variables/_mixins";
-
 .workout__list-item {
-  @include font(18px, 600, Inter, 1.56);
+  @include font(18px, 600, $inter, 1.56);
 }
 
 .workout__list-item:last-child {
@@ -10,6 +8,12 @@
 
 @media screen and (max-width: 1350px) {
   .workout__list-item {
-    @include font(14px, 600, Inter, 1.43);
+    @include font(16px, 600, $inter, 1.43);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .workout__list-item {
+    @include font(14px, 600, $inter, 1.43);
   }
 }

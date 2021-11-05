@@ -1,5 +1,3 @@
-@import "../../../variables/_list-style";
-
 .slider-road__image-container {
   margin:0;
   padding: 0;
@@ -11,7 +9,7 @@
   transition: 1s;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .slider-road__image-container {
     max-width: 1510px;
   }

@@ -1,11 +1,8 @@
-@import "../../../variables/_fonts";
-@import "../../../variables/_mixins";
-
 .footer__email {
   @include font(13px, 500, Inter, 2.15);
   background-color: transparent;
   border: none;
-  color: $color-text;
+  color: inherit;
   opacity: 0.7;
   padding: 11px 0 11px 20px;
   box-sizing: border-box;
@@ -16,17 +13,17 @@
 .footer__email:active, .footer__email:hover, .footer__email:focus {
   outline: 0;
   outline-offset: 0;
-  color: $black-ligth;
+  color: inherit;
   opacity: 1;
 }
 
 .footer__email::-webkit-input-placeholder, .footer__email::-moz-placeholder { 
-  color: $color-text;
+  color: inherit;
   opacity: 0.7; 
 }
 
 .footer__email:hover::-webkit-input-placeholder, .footer__email:focus::-webkit-input-placeholder { 
-  color: $black-ligth;
+  color: inherit;
   opacity: 1; 
 }
 

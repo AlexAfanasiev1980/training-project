@@ -5,7 +5,13 @@
 
 @media screen and (max-width: 1350px) {
   .quote {
+    grid-template-areas: "image text";
+  }
+}
+@media screen and (max-width: 959px) {
+  .quote {
     grid-template-columns: 1fr;
     grid-template-areas: "image" "text";
+    width: 320px;
   }
 }/*# sourceMappingURL=quote.css.map */

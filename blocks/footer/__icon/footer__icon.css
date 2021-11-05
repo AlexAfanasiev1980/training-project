@@ -3,7 +3,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 959px) {
   .footer__icon {
     display: block;
     justify-self: end;

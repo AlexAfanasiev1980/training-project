@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./pages/index.css">
+  <title>Велосипеды</title>
+  <link rel="stylesheet" href="./pages/style.css">
 </head>
 <body class="page">
   <header class="header">
@@ -15,19 +15,7 @@
         <li><a href="#bicycles" class="menu__link">Велосипеды</a></li>
         <li><a href="#workout" class="menu__link">Тренировки</a></li>
       </ul>
-      <div class="menu__icon">
-        <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line y1="1.5" x2="22" y2="1.5" stroke="#151515" stroke-width="3"/>
-          <line y1="9.5" x2="22" y2="9.5" stroke="#151515" stroke-width="3"/>
-          <line y1="17.5" x2="22" y2="17.5" stroke="#151515" stroke-width="3"/>
-        </svg>
-      </div>
-      <div class="menu__close-icon">
-        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="1.22179" y1="1.72205" x2="16.7781" y2="17.2784" stroke="#151515" stroke-width="3"/>
-          <line x1="1.22205" y1="17.2782" x2="16.7784" y2="1.72186" stroke="#151515" stroke-width="3"/>
-        </svg>
-      </div>
+      <button type="button" class="menu__icon"></button>
     </nav>
     <div class="menu-popup">
       <nav class="menu-popup__container">
@@ -38,43 +26,42 @@
         </ul>
       </nav>
       <div class="menu-popup__theme-container footer__theme-container">
-        <img src="./images/sun.svg" alt="иконка солнце" class="footer__sun">
-        <div class="footer__switch-container">
-          <div class="footer__switch"></div>
+        <img src="./images/sun.svg" alt="иконка солнце" class="menu-popup__sun footer__sun">
+        <div class="menu-popup__switch-container footer__switch-container">
+          <div class="menu-popup__switch footer__switch"></div>
         </div>
-        <img src="./images/moon.svg" alt="иконка луна" class="footer__moon">
-      </div>
-    </div>
-    <div class="header__content">
-       <h1 class="title header__title">Шоссе, ТТ и Грэвел</h1>
-       <div class="header__text-container">
-         <p class="text header__text">Триатлонные старты, горные серпантины или
-          грейвел заезды по живописным маршрутам – нужно только 
-          определиться с выбором велосипеда и отправиться в путь.</p>
-         <button type="button" class="button header__button">
-           <a href="#" class="header__link">Подробнее</a> 
-           <div class="button__background"></div>
-         </button>
-       </div>
-       <p class="header__text header__bike-name">Cannondale Systemsix<span class="header__line"></span></p>
-      <div class="header__image-container">
-        <img src="./images/Placeholder.jpg" class="header__image" alt="">
-        <div class="header__sticky-container">
-          <div class="header__sticky">
-            <img src="./images/Cannondale Systemsix.jpg" alt="" class="header__sticky-image">
-          </div>
-        </div>
+        <img src="./images/moon.svg" alt="иконка луна" class="menu-popup__moon footer__moon">
       </div>
     </div>
   </header>
   <main class="main">
+    <section class="intro">
+      <h1 class="title intro__title">Шоссе, ТТ и Грэвел</h1>
+      <div class="intro__text-container">
+        <p class="text intro__text">Триатлонные старты, горные серпантины или
+         грейвел заезды по живописным маршрутам – нужно только 
+         определиться с выбором велосипеда и отправиться в путь.</p>
+        <div class="button intro__button">
+          <a href="#" class="intro__link">Подробнее</a> 
+        </div>
+      </div>
+      <p class="intro__text intro__bike-name">Cannondale Systemsix</p>
+     <div class="intro__image-container">
+       <img src="./images/Placeholder.jpg" class="intro__image" alt="фото пейзажа">
+       <div class="intro__sticky-container">
+         <div class="intro__sticky">
+           <img src="./images/Cannondale_Systemsix.jpg" alt="фото велосипеда" class="intro__sticky-image">
+         </div>
+       </div>
+     </div>
+   </section>
    <section class="quote main__quote">
-     <img src="./images/road.jpg" alt="" class="quote__image">
+     <img src="./images/road.jpg" alt="фото трассы" class="quote__image">
      <div class="quote__container">
        <q class="quote__title">Катайся много или мало, долго или коротко, 
          как хочешь - но катайся</q>
-         <p class="quote__author">Эдди Меркс</p>
-         <p class="quote__text" id="road-item">Велогонщик</p>
+         <cite class="quote__author">Эдди Меркс</cite>
+         <p class="quote__text">Велогонщик</p>
      </div>
    </section>
    <section class="slider-road" id="road-item">
@@ -105,17 +92,17 @@
          </li>
        </ul>
        <div class="slider-road__icons">
-         <img src="./images/icon1.svg" class="slider-road__icon" alt="">
-         <img src="./images/icon2.svg" class="slider-road__icon" alt="">
-         <img src="./images/icon3.svg" class="slider-road__icon" alt="">
+         <img src="./images/icon1.svg" class="slider-road__icon" alt="фото трассы">
+         <img src="./images/icon2.svg" class="slider-road__icon" alt="фото трассы">
+         <img src="./images/icon3.svg" class="slider-road__icon" alt="фото трассы">
        </div>
      </div>
      <div class="slider-road__button-container">
        <button type="button" class="button slider-road__button slider-road__button_direction_left">
-         <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_left" alt="">
+         <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_left" alt="иконка стрелки">
        </button>
        <button type="button" class="button slider-road__button slider-road__button_direction_right" >
-        <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_right" alt="">
+        <img src="./images/arrow.svg" class="slider-road__arrow slider-road__arrow_direction_right" alt="иконка стрелки">
        </button>
      </div>
      <div id="bicycles"></div>
@@ -124,95 +111,95 @@
      <div class="bicycles__header">
        <h2 class=" title bicycles__title">Велосипеды</h2>
        <ul class="bicycles__list">
-         <li class="bicycles__list-item" id="1">Шоссе</li>
-         <li class="bicycles__list-item" id="2">Грэвел</li>
-         <li class="bicycles__list-item" id="3">ТТ</li>
+         <li class="bicycles__list-item"><button type="button" class="bicycles__button" id="1">Шоссе</button></li>
+         <li class="bicycles__list-item"><button type="button" class="bicycles__button" id="2">Грэвел</button></li>
+         <li class="bicycles__list-item"><button type="button" class="bicycles__button" id="3">ТТ</button></li>
        </ul>
      </div>
      <select name="bicycles" id="choice__bicycles" class="bicycles__choice">
-       <option value="1">Шоссе</option>
-       <option value="2">Грэвел</option>
-       <option value="3">ТТ</option>
+       <option value="1" class="bicycles__option">Шоссе</option>
+       <option value="2" class="bicycles__option">Грэвел</option>
+       <option value="3" class="bicycles__option">ТТ</option>
      </select>
      <div class="bicycles__slider-container">
        <ul class="bicycles__slides">
          <li class="bicycles__slide">
-           <div class="bicycles__slide-item">
+           <figure class="bicycles__slide-item">
              <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" target="_blank" class="bicycles__link">
-               <img src="./images/CerveloCaledonia-5.jpg" alt="" class="bicycles__image">
+               <img src="./images/CerveloCaledonia-5.jpg" alt="фото CerveloCaledonia-5" class="bicycles__image">
              </a>
-           </div>
-           <p class="bicycles__text">Cervelo Caledonia-5</p>
+             <figcaption class="bicycles__text">Cervelo Caledonia-5</figcaption>
+           </figure>
          </li>
          <li class="bicycles__slide">
-           <div class="bicycles__slide-item">
+           <figure class="bicycles__slide-item">
              <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank" class="bicycles__link">
-               <img src="./images/CannondaleSystemsixHimod.jpg" alt="" class="bicycles__image">
+               <img src="./images/CannondaleSystemsixHimod.jpg" alt="фото Cannondale Systemsix Himod" class="bicycles__image">
              </a>
-           </div>
-           <p class="bicycles__text">Cannondale Systemsix Himod</p>
+             <figcaption class="bicycles__text">Cannondale Systemsix Himod</figcaption>
+           </figure>
          </li>
          <li class="bicycles__slide">
-           <div class="bicycles__slide-item">
+           <figure class="bicycles__slide-item">
              <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" target="_blank" class="bicycles__link">
-               <img src="./images/TrekDomaneSL-7.jpg" alt="" class="bicycles__image">
+               <img src="./images/TrekDomaneSL-7.jpg" alt="фото Trek Domane SL-7" class="bicycles__image">
              </a>
-           </div>
-           <p class="bicycles__text">Trek Domane SL-7</p>
+             <figcaption class="bicycles__text">Trek Domane SL-7</figcaption>
+           </figure>   
          </li>
        </ul>
 
        <ul class="bicycles__slides">
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE" target="_blank" class="bicycles__link">
-              <img src="./images/CerveloAsperoGRX810.jpg" alt="" class="bicycles__image">
+              <img src="./images/CerveloAsperoGRX810.jpg" alt="фото Cervelo Aspero GRX 810" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">Cervelo Aspero GRX 810</p>
+            <figcaption class="bicycles__text">Cervelo Aspero GRX 810</figcaption>
+          </figure>
         </li>
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9" target="_blank" class="bicycles__link">
-              <img src="./images/SpecializedS-WorksDiverge.jpg" alt="" class="bicycles__image">
+              <img src="./images/SpecializedS-WorksDiverge.jpg" alt="фото Specialized S-Works Diverge" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">Specialized S-Works Diverge</p>
+            <figcaption class="bicycles__text">Specialized S-Works Diverge</figcaption>
+          </figure>
         </li>
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8" target="_blank" class="bicycles__link">
-              <img src="./images/CannondaleTopstoneLefty3.jpg" alt="" class="bicycles__image">
+              <img src="./images/CannondaleTopstoneLefty3.jpg" alt="фото Cannondale Topstone Lefty 3" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">Cannondale Topstone Lefty 3</p>
+            <figcaption class="bicycles__text">Cannondale Topstone Lefty 3</figcaption>
+          </figure>
         </li>
       </ul>
 
       <ul class="bicycles__slides">
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9" target="_blank" class="bicycles__link">
-              <img src="./images/SpecializedS-WorksShiv.jpg" alt="" class="bicycles__image">
+              <img src="./images/SpecializedS-WorksShiv.jpg" alt="фото Specialized S-Works Shiv" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">Specialized S-Works Shiv</p>
+            <figcaption class="bicycles__text">Specialized S-Works Shiv</figcaption>
+          </figure>
         </li>
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835" target="_blank" class="bicycles__link">
-              <img src="./images/BMCTimemachine01ONE.jpg" alt="" class="bicycles__image">
+              <img src="./images/BMCTimemachine01ONE.jpg" alt="фото BMC Timemachine 01 ONE" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">BMC Timemachine 01 ONE</p>
+            <figcaption class="bicycles__text">BMC Timemachine 01 ONE</figcaption>
+          </figure>
         </li>
         <li class="bicycles__slide">
-          <div class="bicycles__slide-item">
+          <figure class="bicycles__slide-item">
             <a href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q" target="_blank" class="bicycles__link">
-              <img src="./images/CerveloP-Series.jpg" alt="" class="bicycles__image">
+              <img src="./images/CerveloP-Series.jpg" alt="фото Cervelo P-Series" class="bicycles__image">
             </a>
-          </div>
-          <p class="bicycles__text">Cervelo P-Series</p>
+            <figcaption class="bicycles__text">Cervelo P-Series</figcaption>
+          </figure>
         </li>
       </ul>
      </div>
@@ -231,11 +218,11 @@
           тренировки поможет приложение Strava, а также это приложение 
           позволит построить тренировочный план.</p>
        <ul class="workout__list">
-         <li class="workout__list-item"><a href="https://www.strava.com" class="workout__link" target="_blanck">Strava</a></li>
-         <li class="workout__list-item"><a href="https://www.komoot.com" class="workout__link" target="_blanck">Komoot</a></li>
+         <li class="workout__list-item"><a href="https://www.strava.com" class="workout__link" target="_blank">Strava</a></li>
+         <li class="workout__list-item"><a href="https://www.komoot.com" class="workout__link" target="_blank">Komoot</a></li>
        </ul>
     </div>
-    <img src="./images/workout-image.jpg" alt="" class="workout__image">
+    <img src="./images/workout-image.jpg" alt="фото трассы" class="workout__image">
    </section>
   </main>
   <footer class="footer">

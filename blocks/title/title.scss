@@ -1,15 +1,18 @@
-@import "../../variables/_mixins";
-@import "../../variables/_fonts";
-
 .title {
-  @include font(55px, 700, Inter, 1.09);
-  color: $black-ligth;
+  @include font(55px, 700, $inter, 1.09);
+  // color: $black-ligth;
   color: unset;
   letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 1350px) {
   .title {
-    @include font(32px, 700, Inter, 1.25);
+    @include font(44px, 700, $inter, 1.25);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .title {
+    @include font(32px, 700, $inter, 1.25);
   }
 }

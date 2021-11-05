@@ -1,6 +1,3 @@
-@import "../../../variables/_list-style";
-@import "../../../variables/_mixins";
-
 .menu__links {
   list-style-type: $list-style-none;
   width: 399px;
@@ -9,7 +6,7 @@
   @include flex(space-between);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 960px) {
   .menu__links {
   display: none;
   }
