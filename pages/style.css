@@ -1097,7 +1097,7 @@ template {
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  background-color: #f4f4f4;
+  background-color: inherit;
   margin: 0;
 }
 
@@ -1108,8 +1108,8 @@ template {
   }
 }
 .bicycles__link {
-  width: 380px;
-  height: 380px;
+  width: 340px;
+  height: 340px;
   border-radius: 20px;
   display: flex;
   align-items: center;
