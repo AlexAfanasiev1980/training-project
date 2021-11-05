@@ -1543,6 +1543,7 @@ template {
   align-self: flex-start;
   background-image: url(../../../images/menu-icon.svg);
   background-repeat: no-repeat;
+  background-color: transparent;
   cursor: pointer;
   display: none;
   border: none;
