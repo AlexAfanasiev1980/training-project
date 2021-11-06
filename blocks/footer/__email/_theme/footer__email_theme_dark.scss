@@ -1,0 +1,17 @@
+.footer__email_theme_dark {
+  .footer__email {
+    color: #fff;
+  }
+}
+
+.footer__email_theme_dark:active, .footer__email_theme_dark:hover, .footer__email_theme_dark:focus {
+  color: #fff;
+}
+
+.footer__email_theme_dark::-webkit-input-placeholder, .footer__email_theme_dark::-moz-placeholder { 
+  color: #fff;
+}
+
+.footer__email_theme_dark:hover::-webkit-input-placeholder, .footer__email_theme_dark:focus::-webkit-input-placeholder { 
+  color: #fff;
+}
