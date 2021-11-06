@@ -235,7 +235,7 @@ inputEmail.addEventListener('click', visibilityButton);
 function visibilityButtonNone() {
   inputSubmit.classList.remove("footer__submit_active");
   inputEmail.value = "Круто!";
-  inputEmail.style.color = "#151515";
+  setTimeout(() => {inputEmail.value = ""; inputEmail.blur();}, 1000);
 }
 
 inputSubmit.addEventListener('click', visibilityButtonNone);
@@ -271,6 +271,7 @@ function switchThemeDark() {
     sun.forEach(el => el.classList.add("footer__sun_theme_dark"));
     moon.forEach(el => el.classList.add("footer__sun_theme_dark"));
     bicyckesOption.forEach(el => el.classList.add("bicycles__option_theme_dark"));
+    inputEmail.classList.add("footer__email_theme_dark");
     footer.classList.add("footer_theme_dark");
     if (popupOpenIndex===0) {
       btnMenu.classList.add("menu__icon_theme_dark");
@@ -294,6 +295,7 @@ function switchThemeDark() {
     sun.forEach(el => el.classList.remove("footer__sun_theme_dark"));
     moon.forEach(el => el.classList.remove("footer__sun_theme_dark"));
     bicyckesOption.forEach(el => el.classList.remove("bicycles__option_theme_dark"));
+    inputEmail.classList.remove("footer__email_theme_dark");
     if (popupOpenIndex===0) {
       btnMenu.classList.remove("menu__icon_theme_dark");
     } else {

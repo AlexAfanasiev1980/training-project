@@ -1401,7 +1401,7 @@ template {
 .footer__email {
   font-size: 13px;
   font-weight: 500;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   line-height: 2.15;
   background-color: transparent;
   border: none;
@@ -1662,4 +1662,20 @@ template {
 .menu__close-icon_theme_dark {
   background-image: url(../images/menu-icon-close-dark.svg);
   background-color: transparent;
+}
+
+.footer__email_theme_dark .footer__email {
+  color: #fff;
+}
+
+.footer__email_theme_dark:active, .footer__email_theme_dark:hover, .footer__email_theme_dark:focus {
+  color: #fff;
+}
+
+.footer__email_theme_dark::-webkit-input-placeholder, .footer__email_theme_dark::-moz-placeholder {
+  color: #fff;
+}
+
+.footer__email_theme_dark:hover::-webkit-input-placeholder, .footer__email_theme_dark:focus::-webkit-input-placeholder {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

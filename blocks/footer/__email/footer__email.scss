@@ -1,5 +1,5 @@
 .footer__email {
-  @include font(13px, 500, Inter, 2.15);
+  @include font(13px, 500, $inter, 2.15);
   background-color: transparent;
   border: none;
   color: inherit;
